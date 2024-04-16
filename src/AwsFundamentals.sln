@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SqsConsumer", "Sqs\SqsConsu
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sqs", "Sqs", "{450772D0-7150-482C-A5DF-203F015FBCF5}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Customers.Api", "Sqs\Customers.Api\Customers.Api.csproj", "{605EA462-3990-4C00-92E7-769D9233BCF6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{BBCACF30-D3CE-4FFF-9D71-8ACAFDCA1E91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BBCACF30-D3CE-4FFF-9D71-8ACAFDCA1E91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BBCACF30-D3CE-4FFF-9D71-8ACAFDCA1E91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{605EA462-3990-4C00-92E7-769D9233BCF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{605EA462-3990-4C00-92E7-769D9233BCF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{605EA462-3990-4C00-92E7-769D9233BCF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{605EA462-3990-4C00-92E7-769D9233BCF6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +36,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{E4BDBC7C-4316-4D3B-A37B-CBB1CD849ADD} = {450772D0-7150-482C-A5DF-203F015FBCF5}
 		{BBCACF30-D3CE-4FFF-9D71-8ACAFDCA1E91} = {450772D0-7150-482C-A5DF-203F015FBCF5}
+		{605EA462-3990-4C00-92E7-769D9233BCF6} = {450772D0-7150-482C-A5DF-203F015FBCF5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {29ACC73B-52A8-4B4A-85B4-BFD24B449C95}
