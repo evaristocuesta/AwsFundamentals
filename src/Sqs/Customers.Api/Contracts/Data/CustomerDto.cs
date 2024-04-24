@@ -2,7 +2,7 @@
 
 public class CustomerDto
 {
-    public Guid Id { get; init; } = default!;
+    public Guid Id { get; init; } = Guid.Empty;
 
     public string GitHubUsername { get; init; } = default!;
 
