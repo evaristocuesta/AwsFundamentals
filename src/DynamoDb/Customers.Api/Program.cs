@@ -14,11 +14,12 @@ var builder = WebApplication.CreateBuilder(new WebApplicationOptions
 var config = builder.Configuration;
 config.AddEnvironmentVariables("CustomersApi_");
 
-builder.Services.AddControllers().AddFluentValidation(x =>
-{
-    x.RegisterValidatorsFromAssemblyContaining<Program>();
-    x.DisableDataAnnotationsValidation = true;
-});
+builder.Services.AddControllers();
+
+builder.Services
+    .AddFluentValidationAutoValidation()
+    .AddFluentValidationClientsideAdapters();
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
