@@ -60,7 +60,7 @@ public class QueueConsumerService : BackgroundService
                 {
                     await _mediator.Send(typedMessage, stoppingToken);
                 }
-                catch (Exception ex) 
+                catch
                 {
                     _logger.LogError("Message failed during processing");
                     continue;
