@@ -25,6 +25,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DynamoDb", "DynamoDb", "{D6
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Customers.Api", "DynamoDb\Customers.Api\Customers.Api.csproj", "{8B722AE4-D069-4401-8C27-FC525ABE8756}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Movies.Api", "DynamoDb\Movies.Api\Movies.Api.csproj", "{A8F95735-E084-491C-B318-F3D1D7CC0907}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{8B722AE4-D069-4401-8C27-FC525ABE8756}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B722AE4-D069-4401-8C27-FC525ABE8756}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B722AE4-D069-4401-8C27-FC525ABE8756}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8F95735-E084-491C-B318-F3D1D7CC0907}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8F95735-E084-491C-B318-F3D1D7CC0907}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8F95735-E084-491C-B318-F3D1D7CC0907}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8F95735-E084-491C-B318-F3D1D7CC0907}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -76,6 +82,7 @@ Global
 		{A6DB4B64-ECEA-4CA1-B314-DFDB273820E7} = {88B0934F-5FEE-4506-BE27-F09B392F505E}
 		{0E103E6C-3058-4EA1-AEF0-722C016A9267} = {88B0934F-5FEE-4506-BE27-F09B392F505E}
 		{8B722AE4-D069-4401-8C27-FC525ABE8756} = {D6D0C115-FBDA-47AA-BFAC-19A8DF62B8CF}
+		{A8F95735-E084-491C-B318-F3D1D7CC0907} = {D6D0C115-FBDA-47AA-BFAC-19A8DF62B8CF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {29ACC73B-52A8-4B4A-85B4-BFD24B449C95}
