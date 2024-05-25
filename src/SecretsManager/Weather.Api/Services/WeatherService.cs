@@ -22,7 +22,8 @@ public class WeatherService : IWeatherService
         var httpClient = _httpClientFactory.CreateClient();
         
         var weatherResponse = await httpClient.GetAsync(url);
-        if (weatherResponse.StatusCode == HttpStatusCode.NotFound)
+        
+        if (weatherResponse.StatusCode != HttpStatusCode.OK)
         {
             return null;
         }

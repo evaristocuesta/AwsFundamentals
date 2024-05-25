@@ -17,6 +17,7 @@ public class WeatherController : ControllerBase
     public async Task<IActionResult> GetWeatherForCity(string city)
     {
         var weather = await _weatherService.GetCurrentWeatherAsync(city);
+        
         if (weather is null)
         {
             return NotFound();
